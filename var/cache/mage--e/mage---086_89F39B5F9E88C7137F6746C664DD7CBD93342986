@@ -1,0 +1,24 @@
+<div class="block block-layered-nav">
+    <div class="block-title">
+        <strong><span>{{{Просмотреть по}}{{Просмотреть по}}{{Browse By}}{{Mage_Catalog}}}</span></strong>
+    </div>
+    <div class="block-content box">
+        <dl id="narrow-by-list2">
+            <dt>{{{Категория}}{{Категория}}{{Category}}{{Mage_Catalog}}}</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="http://kids61.ru/kacheli-i-shezlongi/babies.html">Babies</a> (0)
+                    </li>
+                                                                            <li>
+                        <a href="http://kids61.ru/kacheli-i-shezlongi/leo.html">Лео</a> (0)
+                    </li>
+                                                                            <li>
+                        <a href="http://kids61.ru/kacheli-i-shezlongi/tiny-love.html">Tiny Love</a> (0)
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>

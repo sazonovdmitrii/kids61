@@ -1,0 +1,13 @@
+<!-- content-home-tabs -->
+<div id ="home-tabs" class="content-tabs">	
+	<!-- ul tabs -->
+	<ul>
+		<li><h2><a href="#tabs_new_contents"><span><?php echo $this->__('New Arrivals') ?></span></a><div class="icon_tab"></div></h2></li>
+		<li><h2><a href="#tabs_popular_contents"><span><?php echo $this->__('Popular Picks') ?></span></a><div class="icon_tab"></div></h2></li>		
+	</ul>	
+	<div id="tabs_new_contents" class="tab-item"><?php echo $this->getChildHtml('galagiftshop_home_tab_new_arrivals') ?></div>
+	
+	<div id="tabs_popular_contents" class="tab-item"><?php echo $this->getChildHtml('galagiftshop_home_tab_popular_pick') ?></div>
+	
+</div>
+<!-- endhometabs-->

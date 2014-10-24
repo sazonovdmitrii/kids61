@@ -1,0 +1,69 @@
+<div style="position:relative; border:1px dotted red; margin:6px 2px; padding:18px 2px 2px 2px; zoom:1;">
+<div style="position:absolute; left:0; top:0; padding:2px 5px; background:red; color:white; font:normal 11px Arial;
+text-align:left !important; z-index:998;" onmouseover="this.style.zIndex='999'"
+onmouseout="this.style.zIndex='998'" title="frontend/default/galagiftshop/template/em_sale_products/sale_home.phtml">frontend/default/galagiftshop/template/em_sale_products/sale_home.phtml</div><div class="set-top-left">
+		  
+		<div class="widget-title">
+			<h2><span>Скидки</span></h2>
+		</div>
+		
+			
+			<div class="widget em-widget-sale-products-grid">
+			<div class="widget-products">
+														<ul class="products-grid widget-products-grid-">
+                    					<li class="item first last"
+						style="  ">
+						                        <a href="http://kids61.ru/koljaska-coletto-matteo-3-v-51.html" title="Коляска Coletto Matteo 3 в 1" class="product-image">
+                        							<!--show label product - label extension is required-->
+													                        <img src="http://kids61.ru/media/catalog/product/cache/7/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/m/a/matteo_silver_2013.jpg" width="215" height="215" alt="Коляска Coletto Matteo 3 в 1" /></a>							
+												
+						<div class="product-shop">
+							<div class="f-fix">
+								<!--product name-->
+																	<h3 class="product-name"><a href="http://kids61.ru/koljaska-coletto-matteo-3-v-51.html" title="Коляска Coletto Matteo 3 в 1">Коляска Coletto Matteo 3 в 1</a></h3>
+																
+								<!--product description-->
+																
+								<!--product reviews-->
+																																	
+								<!--product price-->
+																	<div style="position:relative; border:1px dotted red; margin:6px 2px; padding:18px 2px 2px 2px; zoom:1;">
+<div style="position:absolute; left:0; top:0; padding:2px 5px; background:red; color:white; font:normal 11px Arial;
+text-align:left !important; z-index:998;" onmouseover="this.style.zIndex='999'"
+onmouseout="this.style.zIndex='998'" title="frontend/base/default/template/catalog/product/price.phtml">frontend/base/default/template/catalog/product/price.phtml</div>
+
+                
+    <div class="price-box">
+                                
+                    <p class="old-price">
+                <span class="price-label">{{{Обычная цена:}}{{Обычная цена:}}{{Regular Price:}}{{Mage_Catalog}}}</span>
+                <span class="price" id="old-price-1636-widget-new-list">
+                    18 000,00 руб.                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-1636-widget-new-list">
+                    17 000,00 руб.                </span>
+            </p>
+                    
+    
+        </div>
+
+</div>																
+								<!--product add to cart-->
+																											<div class="js-addcart hover-slide" name="product_0"><button type="button" title="{{{Добавить в корзину}}{{Добавить в корзину}}{{Add to Cart}}{{EM_Saleproducts}}}" class="button btn-cart" onclick="setLocation('http://kids61.ru/checkout/cart/add/uenc/aHR0cDovL2tpZHM2MS5ydS8_X19fc3RvcmU9Ymx1ZV9lbmc,/product/1636/form_key/P1dnrybXU7o9ULAE/')"><span><span>{{{Добавить в корзину}}{{Добавить в корзину}}{{Add to Cart}}{{EM_Saleproducts}}}</span></span></button></div>
+																									
+								<!--product add to compare-wishlist-->
+																
+							</div>
+						</div>
+					</li>
+										</ul>
+                    													</div>
+		</div>
+	</div>
+<script type="text/javascript">
+	decorateGeneric($$('ul.products-grid'),['last','first','odd','even']);
+</script>
+</div>

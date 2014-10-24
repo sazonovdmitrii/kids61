@@ -1,0 +1,21 @@
+<div class="block block-layered-nav">
+    <div class="block-title">
+        <strong><span>Просмотреть по</span></strong>
+    </div>
+    <div class="block-content box">
+        <dl id="narrow-by-list2">
+            <dt>Категория</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="http://kids61.ru/avtokresla/maxi-cosi/aksessuary/aksessuary.html">Аксессуары</a> (11)
+                    </li>
+                                                                            <li>
+                        <a href="http://kids61.ru/avtokresla/maxi-cosi/aksessuary/podstakva-pod-butylochku.html">Подстаква под бутылочку </a> (1)
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>

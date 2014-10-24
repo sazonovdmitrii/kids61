@@ -1,0 +1,85 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category	design
+ * @package		base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license		http://opensource.org/licenses/afl-3.0.php	Academic Free License (AFL 3.0)
+ */
+
+    $countli = count($this->getItemCollection()->getItems());
+    $setting = Mage::helper('galagiftshopsettings');
+    $pageLayout = substr((str_replace(array('page/','.phtml'),'',Mage::app()->getLayout()->getBlock('root')->getTemplate())),0,1);   
+    $isTablet = $setting->checkTabletPhp();
+    if($isTablet == 'true'){
+        $maxItem = 3;
+    }else{
+        $maxItem = 4;
+    }
+    switch ($pageLayout){
+    	case 1: if($isTablet == 'true'){
+                    $maxItem = 4;
+                }else{
+                    $maxItem = 5;
+                }
+    			break;
+    	case 3:	if($isTablet == 'true'){
+                    $maxItem = 2;
+                }else{
+                    $maxItem = 3;
+                }
+    			break;
+    }
+    $isMobile = $setting->checkMobilePhp();
+    if($isMobile == 'true'){$maxItem=2;}
+?>
+<?php if(count($this->getItemCollection()->getItems())): ?>
+<div class="box-collateral box-up-sell">
+	<h2><?php echo $this->__('You may also be interested in the following product(s)') ?></h2>
+	<div id="upsell-product-table">
+		<ul class="products-grid">
+    		<?php $i=1; foreach ($this->getItemCollection()->getItems() as $item): ?>
+    		<li class="itemslider item <?php if($i == 1): ?><?php echo 'first'; ?><?php elseif($i % $countli == 0): ?><?php echo 'last'; ?><?php endif; ?>">
+    			<a href="<?php echo $item->getProductUrl() ?>" title="<?php echo $this->escapeHtml($item->getName()) ?>" class="product-image">
+                    <?php echo $setting->getLabelProducts($item->getId()) ?>
+    				<img src="<?php echo $this->helper('catalog/image')->init($item, 'small_image')->resize(208) ?>" width="208" height="208" alt="<?php echo $this->escapeHtml($item->getName()) ?>" />
+    			</a>
+                <div class="product-details">
+        			<h3 class="product-name"><a href="<?php echo $item->getProductUrl() ?>" title="<?php echo $this->escapeHtml($item->getName()) ?>"><?php echo $this->escapeHtml($item->getName()) ?></a></h3>
+                    <?php echo $this->getReviewsSummaryHtml($item, 'short') ?>
+        			<?php echo $this->getPriceHtml($item, true, '-upsell') ?>
+                </div>
+    		</li>
+            <?php $i++;?>
+    		<?php endforeach; ?>
+		</ul>
+        <?php if($countli > ($maxItem - 1)): ?>
+			<div class="clearfix"></div>
+			<a title="<?php echo $this->__('Previous');?>" id="prev_upsell" class="prev" href="#"><?php echo $this->__('Previous');?></a>
+			<a title="<?php echo $this->__('Next');?>" id="next_upsell" class="next" href="#"><?php echo $this->__('Next');?></a>
+			<script type="text/javascript">
+				jQuery(window).bind('load', function() {
+					doCarouFredSel('#upsell-product-table ul.products-grid',1,<?php echo $maxItem?>,false,1,"#prev_upsell","#next_upsell",215);
+				});
+			</script>
+		<?php endif ?>
+	</div>
+</div>
+<?php endif ?>

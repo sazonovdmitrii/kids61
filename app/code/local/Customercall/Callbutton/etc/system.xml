@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   CustomerCall
+ * @package    Customercall_callbutton
+ * @author     georgegachi@gmail.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+ <config>
+    <sections>
+        <customercall_options translate="label" module="callbutton">
+            <label>CustomerCall CallButton</label>
+            <tab>customer</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store> 
+				<groups>
+					<customercallapiconfig translate="label">
+						<label>CallBack (Click-to-Call) by www.customercall.net - be reached!</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>1</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<comment><![CDATA[<div style='margin-bottom:10px;padding-bottom:10px;border-bottom:1px #bbb dotted'>
+            <b>English:</b> CustomerCall offers a callback (click-to-call) button for your customers to<br/>reach you instantly over the regular phone-line. No software install required.<br/><br/>
+            <b>German:</b> CustomerCall stellt einen R&uuml;ckruf Button f&uuml;r Ihren Shop zur Verf&uuml;gung, damit<br/>Kunden Sie im richtigen Moment sofort und &uuml;ber das regul&auml;re Telefon erreichen k&ouml;nnen.<br/>Keine Softwareinstallation notwedig.<br/><br/>
+            <a style='color:#00f' target='_blank' href='http://www.customercall.net/de/goto/so-funktionierts/ihr-online-shop/'>Info-Link</a><br/>
+            <a style='color:#00f' target='_blank' href='https://login.customercall.net/anmeldung.php'>Free Test: Sign up / Anmeldung</a>
+            </div>]]>
+            </comment>									
+							<fields>
+								<customercall_use translate="label">
+									<label>Active</label>
+									<frontend_type>select</frontend_type>
+									<source_model>adminhtml/system_config_source_yesno</source_model>
+									<sort_order>70</sort_order>
+									<show_in_default>1</show_in_default>
+									<show_in_website>1</show_in_website>
+									<show_in_store>0</show_in_store>									
+								</customercall_use>
+								<customercall_script>
+									<label>Button code</label>
+									<frontend_type>textarea</frontend_type>
+									<sort_order>81</sort_order>
+									<show_in_default>1</show_in_default>
+									<show_in_website>1</show_in_website>
+									<show_in_store>0</show_in_store>
+									<comment><![CDATA[Paste CallButton-Code here.<br/>CallButton Code hier einf&uuml;gen.]]></comment>									
+								</customercall_script>
+							</fields>						
+					</customercallapiconfig>
+				</groups>			
+        </customercall_options>
+    </sections>   
+</config>

@@ -1,0 +1,8 @@
+<?php 
+			$CustomerCallApi = Mage::getStoreConfig('customercall_options/customercallapiconfig/customercall_script');
+			$isActiveCustomerCall = Mage::getStoreConfig('customercall_options/customercallapiconfig/customercall_use');
+			
+			if ($isActiveCustomerCall){
+				echo "<div class=\"customercall\">".$CustomerCallApi."</div>";				
+				}
+?>

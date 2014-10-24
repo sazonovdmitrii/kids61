@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Customercall
+ * @package    Customercall_Callbutton
+ * @author     georgegachi@gmail.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Customercall_Callbutton>
+            <version>2.0.0</version>
+        </Customercall_Callbutton>
+    </modules>
+    <frontend>        
+        <layout>
+            <updates>
+                <callbutton>
+                    <file>callbutton.xml</file>
+                </callbutton>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+			<callbutton>
+				<use>admin</use>
+				<args>
+					<module>Customercall_Callbutton</module>
+					<frontName>callbutton</frontName>
+				</args>
+			</callbutton>
+        </routers>
+    </admin>
+    <adminhtml>
+		
+		<acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <customercall_options>
+                                            <title>Store Hello World Module Section</title>
+                                        </customercall_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+				
+    </adminhtml>   
+    <global>
+        <models>
+            <callbutton>
+                <class>Customercall_Callbutton_Model</class>
+            </callbutton>            
+        </models>
+        <blocks>
+            <callbutton>
+                <class>Customercall_Callbutton_Block</class>
+            </callbutton>
+        </blocks>
+        <helpers>
+            <callbutton>
+                <class>Customercall_Callbutton_Helper</class>
+            </callbutton>
+        </helpers>
+    </global>
+</config>

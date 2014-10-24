@@ -1,0 +1,335 @@
+
+<div class="nav-bar">
+<!-- menu start -->
+<ul id="nav">
+<li  class=" active  level0"> <a href="http://kids61.ru/index.php/admin/dashboard/index/key/$dashboard/index$/"   class="active"><span>Панель управления</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Продажи</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_order/index/key/$sales_order/index$/"   class=""><span>Заказы</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_invoice/index/key/$sales_invoice/index$/"   class=""><span>Счета</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_shipment/index/key/$sales_shipment/index$/"   class=""><span>Доставки</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_creditmemo/index/key/$sales_creditmemo/index$/"   class=""><span>Возвраты платежей</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_transactions/index/key/$sales_transactions/index$/"   class=""><span>Transactions</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_recurring_profile/index/key/$sales_recurring_profile/index$/"   class=""><span>Recurring Profiles (beta)</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_billing_agreement/index/key/$sales_billing_agreement/index$/"   class=""><span>Платежные соглашения</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/checkout_agreement/index/key/$checkout_agreement/index$/"   class=""><span>Соглашение о заказе</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1"> <a href="#"  onclick="return false" class=""><span>Налог</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/tax_rule/index/key/$tax_rule/index$/"   class=""><span>Управление налоговыми правилами</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/tax_rate/index/key/$tax_rate/index$/"   class=""><span>Управление налоговыми зонами и ставками</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/tax_rate/importExport/key/$tax_rate/importExport$/"   class=""><span>Импорт / экспорт ставки налога</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/tax_class_customer/index/key/$tax_class_customer/index$/"   class=""><span>Классы налогов для клиента</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>Классы налога для товара</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Каталог</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/catalog_product/index/key/$catalog_product/index$/"   class=""><span>Управление товарами</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/catalog_category/index/key/$catalog_category/index$/"   class=""><span>Управление категориями</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Атрибуты</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/catalog_product_attribute/index/key/$catalog_product_attribute/index$/"   class=""><span>Управление атрибутами</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/catalog_product_set/index/key/$catalog_product_set/index$/"   class=""><span>Управление наборами атрибутов</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/urlrewrite/index/key/$urlrewrite/index$/"   class=""><span>URL Rewrite Management</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/catalog_search/index/key/$catalog_search/index$/"   class=""><span>Критерии поиска</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Метки</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/tag/index/key/$tag/index$/"   class=""><span>Все метки</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/tag/pending/key/$tag/pending$/"   class=""><span>Метки, ожидающие проверки</span></a>
+</li>
+</ul>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/sitemap/index/key/$sitemap/index$/"   class=""><span>Карта сайта Google</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Mobile</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/mobile/index/key/$mobile/index$/"   class=""><span>Manage Apps</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/mobile/history/key/$mobile/history$/"   class=""><span>Submission History</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/mobile/template/key/$mobile/template$/"   class=""><span>Message Templates</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/mobile/queue/key/$mobile/queue$/"   class=""><span>Message Queue</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/admin_application/index/key/$admin_application/index$/"   class=""><span>Admin Application Settings</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Клиенты</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/customer/index/key/$customer/index$/"   class=""><span>Управление клиентами</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/customer_group/index/key/$customer_group/index$/"   class=""><span>Группы клиентов</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/customer_online/index/key/$customer_online/index$/"   class=""><span>Клиенты на сайте (в сети)</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Маркетинг</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/promo_catalog/index/key/$promo_catalog/index$/"   class=""><span>Ценовые правила для каталога</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/promo_quote/index/key/$promo_quote/index$/"   class=""><span>Ценовые правила для корзины</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Информационный бюллетень</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/newsletter_template/index/key/$newsletter_template/index$/"   class=""><span>Шаблоны рассылок</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/newsletter_queue/index/key/$newsletter_queue/index$/"   class=""><span>Очередь рассылки</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/newsletter_subscriber/index/key/$newsletter_subscriber/index$/"   class=""><span>Подписчики рассылки</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/newsletter_problem/index/key/$newsletter_problem/index$/"   class=""><span>Отчеты проблем с письмами</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>CMS</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/cms_page/index/key/$cms_page/index$/"   class=""><span>Pages</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/cms_block/index/key/$cms_block/index$/"   class=""><span>Статичные блоки</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/widget_instance/index/key/$widget_instance/index$/"   class=""><span>Widgets</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/poll/index/key/$poll/index$/"   class=""><span>Опросы</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Kids store наличие</span></a>
+<ul >
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/web/adminhtml_web/kanc/key/$adminhtml_web/kanc$/"   class=""><span>Проверить наличие</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Galathemes</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_config/edit/section/galagiftshop/key/$system_config/edit$/"   class=""><span>Gala Giftshop Settings</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/galagiftshopsettings_admin/adminhtml_visual/previewBlock/key/$adminhtml_visual/previewBlock$/"   class=""><span>Visual Content Editor</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>EM QuickShop</span></a>
+<ul >
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/system_config/edit/section/quickshop/key/$system_config/edit$/"   class=""><span>Настройки</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/slider/index/key/$slider/index$/"   class=""><span>EM Slideshow</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1"> <a href="#"  onclick="return false" class=""><span>Help &amp; Support</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/galagiftshopsettings_link/faqs/key/$galagiftshopsettings_link/faqs$/"   class=""><span>Gala Dorboutique User Guide</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/galagiftshopsettings_link/requestinstallation/key/$galagiftshopsettings_link/requestinstallation$/"   class=""><span>Request installation</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/galagiftshopsettings_link/contactus/key/$galagiftshopsettings_link/contactus$/"   class=""><span>Contact Us</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/galagiftshopsettings_link/technicalsupport/key/$galagiftshopsettings_link/technicalsupport$/"   class=""><span>Technical support</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Web-forms</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/webforms/adminhtml_webforms/index/key/$adminhtml_webforms/index$/"   class=""><span>Manage Forms</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/webforms/adminhtml_results/index/webform_id/1/key/$adminhtml_results/index$/"   class=""><span>Заказать звонок</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/system_config/edit/section/webforms/key/$system_config/edit$/"   class=""><span>Настройки</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Отчёты</span></a>
+<ul >
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Продажи</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/sales/key/$report_sales/sales$/"   class=""><span>Заказы</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/tax/key/$report_sales/tax$/"   class=""><span>Налог</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/invoiced/key/$report_sales/invoiced$/"   class=""><span>Оплачено</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/shipping/key/$report_sales/shipping$/"   class=""><span>Доставка</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/refunded/key/$report_sales/refunded$/"   class=""><span>Возвраты</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/coupons/key/$report_sales/coupons$/"   class=""><span>Купоны</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/paypal_reports/index/key/$paypal_reports/index$/"   class=""><span>PayPal Settlement Reports</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Корзина покупок</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_shopcart/product/key/$report_shopcart/product$/"   class=""><span>Товары в корзинах</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/report_shopcart/abandoned/key/$report_shopcart/abandoned$/"   class=""><span>Заброшенные корзины</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Товары</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_sales/bestsellers/key/$report_sales/bestsellers$/"   class=""><span>Самые продаваемые товары</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_product/sold/key/$report_product/sold$/"   class=""><span>Products Ordered</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_product/viewed/key/$report_product/viewed$/"   class=""><span>Наиболее посещаемые</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_product/lowstock/key/$report_product/lowstock$/"   class=""><span>Малое количество в наличии</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/report_product/downloads/key/$report_product/downloads$/"   class=""><span>Скачиваний</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Клиенты</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_customer/accounts/key/$report_customer/accounts$/"   class=""><span>Новые учётные записи</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_customer/totals/key/$report_customer/totals$/"   class=""><span>Пользователи по сумме заказов</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/report_customer/orders/key/$report_customer/orders$/"   class=""><span>Пользователи по количеству заказов</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Метки</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_tag/customer/key/$report_tag/customer$/"   class=""><span>Клиенты</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/report_tag/product/key/$report_tag/product$/"   class=""><span>Товары</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/report_tag/popular/key/$report_tag/popular$/"   class=""><span>Популярный</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="#"  onclick="return false" class=""><span>Отзывы</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/report/search/key/$report/search$/"   class=""><span>Критерии поиска</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/report_statistics/index/key/$report_statistics/index$/"   class=""><span>Refresh Statistics</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>Система</span></a>
+<ul >
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_account/index/key/$system_account/index$/"   class=""><span>Моя учётная запись</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Инструменты</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/system_backup/index/key/$system_backup/index$/"   class=""><span>Резервные копии</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/smtppro/log/index/key/$log/index$/"   class=""><span>Email Log</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/compiler_process/index/key/$compiler_process/index$/"   class=""><span>Compilation</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Интернет сервисы</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/api_user/index/key/$api_user/index$/"   class=""><span>SOAP/XML-RPC - Users</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/api_role/index/key/$api_role/index$/"   class=""><span>SOAP/XML-RPC - Roles</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/api2_role/index/key/$api2_role/index$/"   class=""><span>REST - Roles</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/api2_attribute/index/key/$api2_attribute/index$/"   class=""><span>REST - Attributes</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/oauth_consumer/index/key/$oauth_consumer/index$/"   class=""><span>REST - OAuth Consumers</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/oauth_authorizedTokens/index/key/$oauth_authorizedTokens/index$/"   class=""><span>REST - OAuth Authorized Tokens</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/oauth_admin_token/index/key/$oauth_admin_token/index$/"   class=""><span>REST - My Apps</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_design/index/key/$system_design/index$/"   class=""><span>Дизайн</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Импорт/Экспорт</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/import/index/key/$import/index$/"   class=""><span>Импорт</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/export/index/key/$export/index$/"   class=""><span>Экспорт</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/system_convert_gui/index/key/$system_convert_gui/index$/"   class=""><span>Dataflow - Profiles</span></a>
+</li>
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/system_convert_profile/index/key/$system_convert_profile/index$/"   class=""><span>Dataflow - Advanced Profiles</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/yandexmarket_admin/adminhtml_index/index/key/$adminhtml_index/index$/"   class=""><span>Yandex Market</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="http://kids61.ru/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Manage Currency</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>Цены</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/system_currencysymbol/index/key/$system_currencysymbol/index$/"   class=""><span>Symbols</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_email_template/index/key/$system_email_template/index$/"   class=""><span>Транзакционные письма</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_variable/index/key/$system_variable/index$/"   class=""><span>Custom Variables</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Права доступа</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/permissions_user/index/key/$permissions_user/index$/"   class=""><span>Пользователи</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/permissions_role/index/key/$permissions_role/index$/"   class=""><span>Роли</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Расширения (Magento Connect)</span></a>
+<ul >
+<li  class="  level2"> <a href="http://kids61.ru/index.php/admin/extension_local/index/key/$extension_local/index$/"   class=""><span>Управление расширениями</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kids61.ru/index.php/admin/extension_custom/index/key/$extension_custom/index$/"   class=""><span>Расширения пакета</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/cache/index/key/$cache/index$/"   class=""><span>Управление кэшем</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/process/list/key/$process/list$/"   class=""><span>Index Management</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/system_store/index/key/$system_store/index$/"   class=""><span>Управление магазинами</span></a>
+</li>
+<li  class="  level1"> <a href="http://kids61.ru/index.php/admin/sales_order_status/index/key/$sales_order_status/index$/"   class=""><span>Order Statuses</span></a>
+</li>
+<li  class="  last level1"> <a href="http://kids61.ru/index.php/admin/system_config/index/key/$system_config/index$/"   class=""><span>Конфигурация</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<!-- menu end -->
+
+    <a id="page-help-link" href="http://www.magentocommerce.com/gethelp/ru_RU/Mage_Adminhtml/dashboard/index/">Помощь по странице</a>
+    <script type="text/javascript">$('page-help-link').target = 'magento_page_help'</script>
+
+</div>

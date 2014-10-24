@@ -1,0 +1,53 @@
+<div class="em-footer">
+	<div class="em-footer-container ">
+		<div class="em-footer-link container_24">			
+			<div class="footer grid_24">
+                <ul class="links">
+                        <li class="first" ><a href="http://kids61.ru/catalog/seo_sitemap/category/?___SID=U" title="{{{Карта сайта}}{{Карта сайта}}{{Site Map}}{{Mage_Catalog}}}" >{{{Карта сайта}}{{Карта сайта}}{{Site Map}}{{Mage_Catalog}}}</a></li>
+                                <li ><a href="http://kids61.ru/catalogsearch/term/popular/?___SID=U" title="{{{Критерии поиска}}{{Критерии поиска}}{{Search Terms}}{{Mage_CatalogSearch}}}" >{{{Критерии поиска}}{{Критерии поиска}}{{Search Terms}}{{Mage_CatalogSearch}}}</a></li>
+                                <li ><a href="http://kids61.ru/catalogsearch/advanced/?___SID=U" title="{{{Расширенный поиск}}{{Расширенный поиск}}{{Advanced Search}}{{Mage_CatalogSearch}}}" >{{{Расширенный поиск}}{{Расширенный поиск}}{{Advanced Search}}{{Mage_CatalogSearch}}}</a></li>
+                                <li ><a href="http://kids61.ru/sales/guest/form/?___SID=S" title="{{{Заказ и возврат}}{{Заказ и возврат}}{{Orders and Returns}}{{Mage_Sales}}}" >{{{Заказ и возврат}}{{Заказ и возврат}}{{Orders and Returns}}{{Mage_Sales}}}</a></li>
+                                <li class=" last" ><a href="http://kids61.ru/contacts/?___SID=U" title="{{{Контакты}}{{Контакты}}{{Contact Us}}{{Mage_Contacts}}}" >{{{Контакты}}{{Контакты}}{{Contact Us}}{{Mage_Contacts}}}</a></li>
+            </ul>
+           
+				<div class="f-left"><address>&copy; 2014. Интернет-магазин товаров для детей kids61 Ростов-на-Дону.
+
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=25474724&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/25474724/3_1_FFFCA2FF_EEDC82FF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter25474724 = new Ya.Metrika({id:25474724,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/25474724" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></address> <!--Magento Themes by <a href="http://galathemes.com/magento-themes.html" title="Premium Magento Themes &amp; Premium Magento Templates" >galathemes.com</a>--></div>
+                <p class="footer-logo f-right"><a href="#"><span class="brand-logo visa">visa</span></a> <a href="#"><span class="brand-logo visa-verified">visa verified</span></a> <a href="#"><span class="brand-logo master">master</span></a> <a href="#"><span class="brand-logo master-secure">master secure</span></a> <a href="#"><span class="brand-logo paypal">paypal</span></a></p>			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<p id="back-top"><a title="{{{Back to Top}}{{Back to Top}}{{Back to Top}}{{Mage_Page}}}" href="#top">{{{Back to Top}}{{Back to Top}}{{Back to Top}}{{Mage_Page}}}</a></p>

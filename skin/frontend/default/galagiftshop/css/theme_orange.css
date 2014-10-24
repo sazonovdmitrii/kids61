@@ -1,0 +1,102 @@
+/*========== Header ==========*/
+.register a{background-image:url(../images/icons_orange.png)}
+.login a{background-image:url(../images/icons_orange.png)}
+.form-search button.button span span{background-image:url(../images/icons_orange.png);}
+
+/*========== Header ==========*/
+.top-cart-inner .top-cart{background-color:/*BEGIN:head_bg3_color*/#584c90/*END:head_bg3_color*/;
+border:1px solid /*BEGIN:head_line_color*/#473d75/*END:head_line_color*/;}
+a.top-link-cart span.qty-top-cart{
+background-color:/*BEGIN:head_bg_color*/#fff/*END:head_bg_color*/;
+color:#000;}
+.icon.top-cart{
+background-image:url(../images/icons_orange.png); }
+/*========== End: Header ==========*/
+
+/*========== Slideshow ==========*/
+.tp-simpleresponsive .caption.bkg_color,
+.tp-simpleresponsive .tp-caption.bkg_color{
+background-color:#ee76c1;}
+.validation-advice { background:url(../images/icons_orange.png) -795px -614px no-repeat; }
+
+/*========== Widget ==========*/
+.widget .widget-title h2,
+.em-sidebar .block .block-title span{
+color:/*BEGIN:bd_text3_color*/#ee76c1/*END:bd_text3_color*/; }
+
+.home-title a{color:/*BEGIN:head_bg2_color*/#ee76c1/*END:head_bg2_color*/;}
+.home-title{background:url(../images/icons_orange.png) no-repeat right -423px;}
+.sample-block a.view-more{
+color:/*BEGIN:head_bg2_color*/#ee76c1/*END:head_bg2_color*/;
+background:url(../images/icons_orange.png) no-repeat right -423px;}
+
+.sample-block p.h5, .sample-block h3{
+color:/*BEGIN:bd_line2_color*/#ee76c1/*END:bd_line2_color*/;}
+/*View mode*/
+.view-mode .grid,.view-mode .list {
+background: url(../images/icons_orange.png) no-repeat scroll 0 0 transparent;}
+
+
+.category-products .toolbar span.current{
+background:url(../images/icons_orange.png) 101% -210px no-repeat; }
+.breadcrumbs li span{background-image:url(../images/icons_orange.png)}
+
+/*========== Menu ==========*/
+.em_nav .title_menu .arrow{ background:url(../images/icons_orange.png)-213px -384px no-repeat; }
+
+#nav ul li.parent > a { background:url(../images/menu_nav_orange.png) 90% center no-repeat}
+.em_nav a.arrow span { background:url(../images/menu_nav_orange.png) center center no-repeat}
+.vnav > .menu-item-depth-0 > a.arrow span,
+.vnav > .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.arrow span {
+background:url(../images/menu_nav_orange.png) center right no-repeat}
+.em-col-right .vnav > .menu-item-depth-0 > a.arrow span,
+.em-col-right .vnav > .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.arrow span {  background:url(../images/menu_nav_right_orange.png) center right no-repeat}
+.nav-right a.arrow span{background:url(../images/menu_nav_right_orange.png) center center no-repeat}
+.em-col-right a.arrow span {background:url(../images/menu_nav_right_orange.png) center left no-repeat}
+.nav-right > .menu-item-depth-0 > a.arrow span{background:url(../images/menu_nav_right_orange.png) center left no-repeat}
+.em-col-right .vnav > .menu-item-depth-0 > a.arrow span {background:url(../images/menu_nav_right_orange.png) center right no-repeat}
+
+.adapt-0 .hnav .menu-item-depth-0 > .em-catalog-navigation > li > a.arrow span,
+.adapt-0 .em_nav .vnav > li.menu-item-parent:hover > a.arrow span,
+.adapt-0 .em_nav .vnav > li.menu-item-parent > a.arrow span,
+.adapt-0  .em_nav .hnav > li.menu-item-parent > a.arrow span
+ { text-align:left; background:url(../images/menu_nav_orange.png) center right no-repeat!important }
+ 
+.adapt-0 .nav-right a.arrow span{background:url(../images/menu_nav_orange.png) center center no-repeat}
+.adapt-0 .em-col-right a.arrow span {background:url(../images/menu_nav_orange.png) center right no-repeat}
+.adapt-0 .em-col-right .vnav > .menu-item-depth-0 > a.arrow span,
+.adapt-0 .em-col-right .vnav > .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.arrow span {background:url(../images/menu_nav_orange.png) center right no-repeat}
+
+.adapt-0 .em_nav > ul > .menu-item-text > .em-catalog-navigation li.level0 > a.arrow,
+.adapt-0 .vnav li.menu-item-parent > a.arrow, 
+.adapt-0 .em_nav .hnav > li.menu-item-parent > a.arrow,
+.adapt-0 .vnav > .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.arrow,
+.adapt-0 .vnav > li.menu-item-parent:hover > a.arrow,
+.adapt-0 .vnav > li.menu-item-parent > a.arrow{width:30px;
+border: 1px solid /*BEGIN:bd_line_color*/#e6e6e6/*END:bd_line_color*/!important;border-right:0!important;border-bottom:0!important;}
+
+.adapt-0 .hnav .menu-item-depth-0 > .em-catalog-navigation > li > a.arrow span,
+.adapt-0 .vnav > .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.arrow span,
+.adapt-0 .em_nav .vnav > li.menu-item-parent:hover > a.arrow span,
+.adapt-0 .em_nav .vnav > li.menu-item-parent > a.arrow span,
+.adapt-0  .em_nav .hnav > li.menu-item-parent > a.arrow span{background-position:center center!important;}
+.adapt-0 .vnav li.menu-item-depth-0.last, 
+.adapt-0 .vnav li.menu-item-depth-0.parent.last{border-bottom:none;}
+.adapt-0 .em_nav .hnav > .menu-item-link, 
+.adapt-0 .em_nav .hnav > .menu-item-text > .em-catalog-navigation > .level0,
+.adapt-0 .vnav > li.menu-item-depth-0{border:1px solid /*BEGIN:bd_line_color*/#e6e6e6/*END:bd_line_color*/;border-top:0; }
+
+.adapt-0 #menuleft.vnav > li.menu-item-depth-0,
+.adapt-0 .vnav li.menu-item-depth-0:first-child,
+.adapt-0 .hnav .menu-item-depth-0:first-child,
+.adapt-0 .vnav li.menu-item-depth-0.menu-item-parent:first-child, 
+.adapt-0 .vnav li.menu-item-depth-0.parent:first-child{
+border-top: 1px solid /*BEGIN:bd_line_color*/#e6e6e6/*END:bd_line_color*/;}
+.adapt-0 .vnav > .menu-item-depth-0 > .em-catalog-navigation > .level0 > a{margin-left:0;
+padding:8px 10px;}
+.adapt-0 .vnav > li.menu-item-depth-0 a.arrow{width:30px!important;}
+.adapt-0 .menu-item-text.menu-item-depth-0{display:block;}
+.adapt-0 .vnav li.menu-item-depth-0.last{
+border-bottom: 1px solid /*BEGIN:bd_line_color*/#e6e6e6/*END:bd_line_color*/;}
+.adapt-0 .vnav > .menu-item-depth-0 > .em-catalog-navigation > .level0:first-child{border-top:0;}
+.adapt-0 .vnav li.menu-item-depth-1 a.arrow{border:0!important;}

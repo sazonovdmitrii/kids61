@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gala_Galagiftshopsettings>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gala_Galagiftshopsettings>
+    </modules>
+</config>
